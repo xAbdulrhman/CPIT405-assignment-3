@@ -1,0 +1,95 @@
+html {
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSljJ50MfLgC5uZS1hwaobWcsS_MHoQR0zm4hbMahrEWCMNgiZMp-iASKNlKT5lO9j8xq4&usqp=CAU");
+}
+
+h1 {
+    text-align: center;
+    color: rgb(159, 226, 250);
+    font-size: 50px;
+    border-style: ridge;
+    border-color: antiquewhite;
+    text-transform: uppercase;
+    font-family: Verdana;
+    margin-top: -10px;
+}
+
+nav {
+    list-style-type: none;
+}
+
+a {
+    color: rgb(80, 232, 224);
+    float: right;
+}
+
+input[type=search] {
+    font-size: 15px;
+    text-align: center;
+    border: 3px solid #a700cc;
+    padding: 10px 10px 10px 10px;
+    height: 20px;
+    color: #9DBFAF;
+}
+
+input[type=search]:focus {
+    width: 40%;
+    color: #a700cc;
+}
+
+input[type=file],
+label {
+    color: rgb(134, 161, 92);
+    font-family: sans-serif;
+}
+
+form {
+    text-align: center;
+}
+
+img {
+    border-style: dotted;
+    display: flexbox;
+}
+
+button {
+    color: rgb(104, 95, 0);
+    border: 2%;
+    text-decoration: underline;
+    font-family: Georgia;
+    background-color: beige;
+    padding: 8px;
+    font-size: 90%;
+}
+
+.wow {
+    margin-left: -80px;
+}
+
+th,
+td {
+    font-size: 30px;
+    padding: 25px;
+    border-style: solid;
+    color: cadetblue;
+    border-color: gray;
+}
+
+table {
+    margin: 40px 20px 20px 24%;
+    width: 50%;
+    border-style: double;
+    border-color: gray;
+}
+
+#mm img {
+    border-style: ridge;
+}
+
+#up img {
+    border-style: double;
+}
+
+h3 {
+    color: cadetblue;
+    text-align: center;
+}

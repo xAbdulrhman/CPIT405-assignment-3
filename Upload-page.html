@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Upload Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <ul>
+        <li><a href="Home-page.html">to Home page</a>
+        </li>
+        <li><a href="Search-page.html">to Search page</a>
+        </li>
+    </ul>
+
+    <h1>Upload Page</h1>
+
+    <form id="up">
+        <label for="picture">You can upload an image here: </label>
+        <input type="file" accept="image/png, image/jpeg, image/jpg" name="picture">
+        <button class="wow" type="submit">Submit image</button>
+
+        <br>
+        <hr>
+
+        <table>
+            <tr>
+                <th colspan="3">Sort by</th>
+            </tr>
+
+            <tr>
+                <th rowspan="2">Likes</th>
+            </tr>
+            <tr>
+                <td>
+                    <input type="radio" name="L" id="Alike" onchange="f1()">
+                    <label for="Alike" onchange="f1()">Ascending</label>
+                </td>
+                <td>
+                    <input type="radio" name="L" id="Dlike" onchange="f2()">
+                    <label for="Dlike">Descending</label>
+                </td>
+            </tr>
+            <tr>
+                <th rowspan="2">Name</th>
+            </tr>
+            <tr>
+                <td>
+                    <input type="radio" name="L" id="Aname" onchange="f3()">
+                    <label for="Aname">Ascending</label>
+                </td>
+                <td>
+                    <input type="radio" name="L" id="Dname" onchange="f4()">
+                    <label for="Dname">Descending</label>
+                </td>
+            </tr>
+        </table>
+        <br>
+        <div id="FilterResult"></div>
+        <!-- filtered imgs here  -->
+    </form>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
